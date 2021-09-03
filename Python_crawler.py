@@ -80,7 +80,7 @@ for url in urls:
         writer=csv.DictWriter(file, fieldnames=contacte.keys())
         #writer.writeheader()
         writer.writerow(contacte)
-        #file.write("%s,%s\n"%(i, contacte[i]))
+        
 
 
 
